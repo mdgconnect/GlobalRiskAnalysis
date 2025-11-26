@@ -135,4 +135,4 @@ def display_quarterly(_):
     return px.bar(quarterly, x='start_quarter', y='totalcapitalamount', title='Seasonal Patterns (Quarterly Revenue)')
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
